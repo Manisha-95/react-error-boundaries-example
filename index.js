@@ -10,9 +10,11 @@ class App extends Component {
   render() {
     return (
       <div>
-      <ErrorBoundary><Hero heroname="Batman" /></ErrorBoundary>
-       <ErrorBoundary> <Hero heroname="Superman"/></ErrorBoundary>
-        <ErrorBoundary><Hero heroname="Joker"/></ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroname="Batman" />
+        <Hero heroname="Superman"/>
+       <Hero heroname="Joker"/>
+       </ErrorBoundary>
         
         
        
