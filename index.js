@@ -13,7 +13,7 @@ class App extends Component {
       <ErrorBoundary>
       <Hero heroname="Batman" />
         <Hero heroname="Superman"/>
-       <Hero heroname="Joker"/>
+       <Hero heroname="Jokerr"/>
        </ErrorBoundary>
         
         
